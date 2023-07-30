@@ -1,0 +1,45 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+body{
+    font-family: "Roboto", "Noto Sans Mono CJK TC";
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+hr{
+    border: none;
+    border-top: solid 1px #fff;
+    margin: 16px 0;
+}
+.bgc-main{
+    background: #AA0601;
+}
+.color-main{
+    color: #AA0601;
+}
+.bgc-light{
+    background: #FBF2F2;
+}
+.bgc-dark{
+    background: #000;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    max-width: 1326px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header a, .footer a {
+    color: #fff;
+    font-size: 20px;
+}
