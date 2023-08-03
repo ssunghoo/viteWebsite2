@@ -1,7 +1,6 @@
 *,*::after,*::before{
     box-sizing: border-box;
     text-decoration: none;
-    line-height: 1.5;
 }
 
 body{
@@ -18,8 +17,11 @@ hr{
     border-top: solid 1px #fff;
     margin: 16px 0;
 }
+
+$primary: #AA0601;
+
 .bgc-main{
-    background: #AA0601;
+    background: $primary;
 }
 .color-main{
     color: #AA0601;
@@ -37,6 +39,15 @@ hr{
     max-width: 1326px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.big-title{
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 96px 0 32px 0;
+    padding: 0 0 0 16px;
+    border-left: 8px solid $primary;
 }
 
 .header a, .footer a {
