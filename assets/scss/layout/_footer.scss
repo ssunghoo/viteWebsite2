@@ -4,6 +4,9 @@
 .footer-box{
   justify-content: space-between;
 }
+.ic-social{
+  align-items: start;
+}
 .ic-social a{
   display: block;
   margin-left: 32px;
@@ -52,44 +55,13 @@ span.icon-size{
   margin-right: 48px;
 }
 @media(max-width: 992px){
-  .container{
-      padding: 0 36px;
-  }
+
   .footer-list .home-menu ul li{
       padding: 0 32px 0 0;
   }
 }
 
 @media(max-width: 767px){
-  .container{
-      padding: 0 14px;
-  }
-  .header{
-      flex-direction: column;
-  }
-  .logo{
-      margin-bottom: 15px;
-  }
-  .home-menu{
-      width: 100%;
-  }
-  .home-menu ul{
-      flex-wrap: wrap;
-
-  }
-  .home-menu ul li{
-      width: 50%;
-      border: 1px solid #fff;
-  }
-  .home-menu ul li a{
-      text-align: center;
-  }
-  .home-menu ul li:nth-child(1){
-      padding: 0 32px;
-  }
-  .home-menu ul li:last-child{
-      padding: 0 32px;
-  }
 
   .footer-list .home-menu{
       display: none;
@@ -117,8 +89,6 @@ span.icon-size{
       font-size: 24px;
       font-variation-settings: 'OPSZ' 24;
   }
-  hr{
-      display: none;
-  }
+
 
 }
